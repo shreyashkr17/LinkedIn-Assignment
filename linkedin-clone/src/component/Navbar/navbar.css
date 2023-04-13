@@ -1,0 +1,241 @@
+.Navbar{
+    width: 100%;
+    /* max-width: 1500px; */
+    height: 75px;
+    /* max-height: 20%; */
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-content: center;
+}
+.nav_container{
+    width: 1160px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: transparent;
+    flex-direction: row;
+    margin: auto;
+
+}
+.home_linkedin{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+}
+.home_linkedin a{
+    width: 28%;
+    height: 100%;
+    /* padding: 5px; */
+    position: relative;
+    background-color: transparent;
+    display: flex;
+}
+.logo{
+    width: 85%;
+    height: 100%;
+    /* margin-top: 8%; */
+    margin: auto;
+}
+
+
+
+
+
+.list_menu{
+    width: 26%;
+    height: 100%;
+    background-color: transparent;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.list_menu::after{
+    display: flex;
+    width: 1px;
+    height: 50%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    content: "";
+    background-color: rgba(0,0,0,0.3);
+}
+.explore1{
+    width: 25%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+    /* flex-direction: column; */
+}
+.explore1:hover{
+    color: black;
+}
+.innerLi{
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.upper_1{
+    width: 100%;
+    height: 55%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.svgSize{
+    margin: auto;
+}
+.down1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    background-color: transparent;
+    display: flex;
+    /* flex-direction: ; */
+}
+.liText{
+    margin: auto;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+
+.join_in{
+    width: 24%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+.join_cont1{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: transparent; 
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+}
+.join_cont2{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+}
+.jn{
+    width: 80%;
+    height: 65%;
+    
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    /* opacity: 0; */
+}
+.jn:hover{
+    background-color: rgba(0,0,0,0.05);
+    /* opacity: 1; */
+    border-radius: 24px;
+    
+}
+.jnText{
+    margin: auto;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+
+
+.jn1{
+    width: 80%;
+    height: 65%;
+    border: 1.5px solid rgb(4, 4, 191);
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+    color: rgb(4, 4, 191);
+    border-radius: 24px;
+    /* opacity: 0; */
+}
+.jn1:hover{
+    background-color: rgba(4, 4, 191,0.05);
+    /* opacity: 1; */
+    border-radius: 24px;
+    
+}
+
+
+
+
+@media screen and (max-width:1050px) {
+    .Navbar{
+        height: 65px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .nav_container{
+        width: 950px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .home_linkedin{
+        width: 76%;
+    }
+    .logo{
+        width: 80px;
+        height: 50px;
+    }
+    .list_menu{
+        display: none;
+    }
+}
+@media screen and (max-width:669px) {
+    .home_linkedin{
+        width: 65%;
+    }
+    .join_in{
+        width: 35%;
+    }
+}
+@media screen and (max-width:463px) {
+    .home_linkedin{
+        width: 50%;
+    }
+    .join_in{
+        width: 50%;
+    }
+    .logo{
+        padding-left: 5px;
+    }
+}
+@media screen and (max-width:324px) {
+    .home_linkedin{
+        width: 40%;
+    }
+    .join_in{
+        width: 60%;
+    }
+    .logo{
+        padding-left: 5px;
+    }
+}

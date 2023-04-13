@@ -1,0 +1,23 @@
+.loginGoogle{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color:white ;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;;
+}
+@media screen and (max-width:1500px) {
+    .loginGoogle{
+        height: 40px;
+    }
+    .loginGoogle div{
+        height: 40px;
+    }
+}
+@media screen and (max-width:768px) {
+    .loginGoogle{
+        height: 35px;
+    }
+    .loginGoogle div{
+        height: 35px;
+    }
+}
